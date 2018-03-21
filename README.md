@@ -1,2 +1,2 @@
 # SoftUniada
-Algorithm competition @ (SoftUni)[https://softuni.bg/]
+Algorithm competition @ [SoftUni](https://softuni.bg/)
