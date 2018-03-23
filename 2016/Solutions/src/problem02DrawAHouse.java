@@ -18,7 +18,16 @@ public class problem02DrawAHouse {
             }
 
         }
+        sb.append("+" + repeat("-", n * 2 - 3) + "+" + "\n");
+        if (n == 3) {
+            sb.append("|" + "   " + "|" + "\n");
+        } else if (n > 3) {
+            for (int i = 0; i < Math.floor((n * 2 - 3) / 2.0); i++) {
+                sb.append("|" + repeat(" ", n * 2 - 3) + "|" + "\n");
+            }
+        }
 
+        sb.append("+" + repeat("-", n * 2 - 3) + "+" + "\n");
         System.out.println(sb.toString());
     }
 
